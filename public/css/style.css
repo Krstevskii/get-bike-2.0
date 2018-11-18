@@ -1,0 +1,119 @@
+nav ul a{
+    color: grey;
+}
+
+nav .nav-wrapper .fa-bars {
+    font-size: 25px;
+}
+
+nav .container .nav-wrapper ul .active a {
+    background: transparent;
+    color: #00bf77;
+}
+
+nav .container .nav-wrapper ul .active {
+    background-color: transparent;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+main .ideaMain .container {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+main .ideaMain .container h1 {
+    color: #00bf77;
+}
+
+main .ideaMain .container h4 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #00bf77;
+}
+
+main .ideaMain .container ul {
+    text-align: center;
+}
+
+main {
+    text-align: justify;
+}
+
+main .teamMain .card .card-content {
+    height: 100px;
+}
+
+main .teamMain .card .card-content p {
+    color: grey;
+    font-style: italic;
+}
+
+main .teamMain h1 {
+    color: #00bf77;
+}
+
+main .teamMain .card:hover{
+    box-shadow: 0px 0px 10px #8a8a8a;
+    transition-duration: 1s;
+}
+
+main .newsMain .jumbotron .btn {
+    background-color: #00bf77;
+}
+
+main .newsMain .jumbotron {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+main .newsMain h1 {
+    color: #00bf77;
+}
+
+main .contactMain .input-field label {
+    color: grey;
+}
+/* label focus color */
+main .contactMain .input-field input[type=text]:focus + label {
+     color: #00bf77;
+ }
+/* label underline focus color */
+main .contactMain .input-field input[type=text]:focus {
+    border-bottom: 1px solid #00bf77;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+main .contactMain .input-field input[type=email]:focus + label {
+    color: #00bf77;
+}
+/* label underline focus color */
+main .contactMain .input-field input[type=email]:focus {
+    border-bottom: 1px solid #00bf77;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+main .contactMain form .row .btn {
+    background: #00bf77;
+}
+
+main .contactMain h1 {
+    color: #00bf77;
+}
+
+main .flash-msg {
+    margin-top: 2%;
+    color: grey;
+    text-align: center;
+    border-style: solid;
+    border-color: #00bf77;
+    background-color: rgba(0, 191, 119, 0.2);
+}

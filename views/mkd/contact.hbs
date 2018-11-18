@@ -1,0 +1,37 @@
+<div class="contactMain">
+    <div class="container">
+        <h1>Контакт</h1>
+        <form class="col s12" action="/contact-us" method="post">
+            <div class="row">
+                <div class="input-field col s12 m6">
+                    <input name="FirstName" id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Име</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 m6">
+                    <input name="LastName" id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Презиме</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 m6">
+                    <input name="Email" id="email" type="email" class="validate" required>
+                    <label for="email">Е-маил</label>
+                    <span class="helper-text" data-error="Погрешно" data-success="Точно"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 m8">
+                    <textarea id="textarea1" name="Message" maxlength="150" class="materialize-textarea" data-length="150"></textarea>
+                    <label for="textarea1">Коментар</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s1">
+                    <button class="btn btn-small" type="submit">Внеси</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
