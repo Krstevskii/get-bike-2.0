@@ -56,8 +56,10 @@ app.use((req, res, next) => {
 
 // Load Routes
 const mkdRoutes = require('./routes/mkdRoutes');
+const enRoutes = require('./routes/enRoutes');
 
 app.use('/', mkdRoutes);
+app.use('/en', enRoutes);
 
 const port = process.env.PORT || 5000;
 

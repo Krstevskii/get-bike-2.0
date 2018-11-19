@@ -11,21 +11,21 @@
 </head>
 
 <body>
-    {{> _header}}
-    {{#if mainPage}}
-        {{> _carousel}}
-    {{/if}}
-    <main>
-        {{> _msg}}
-        {{{body}}}
-    </main>
-    {{> _footer}}
+{{> _header}}
+{{#if mainPage}}
+    {{> _carousel}}
+{{/if}}
+<main>
+    {{> _msg}}
+    {{{body}}}
+</main>
+{{> _footer}}
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            {{#if mainPage}}
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+        {{#if mainPage}}
             $('.carousel.carousel-slider').carousel({
                 fullWidth: true,
                 indicators: true
@@ -36,14 +36,14 @@
                 $('.carousel').carousel('next');
                 setTimeout(autoplay, 7000);
             }
-            {{/if}}
-            $('.sidenav').sidenav();
-            $('.parallax').parallax();
-            $('.slider').slider();
-            $('.materialboxed').materialbox();
-            $('.collapsible').collapsible();
-            $('input#input_text, textarea#textarea1').characterCounter();
-        });
-    </script>
+        {{/if}}
+        $('.sidenav').sidenav();
+        $('.parallax').parallax();
+        $('.slider').slider();
+        $('.materialboxed').materialbox();
+        $('.collapsible').collapsible();
+        $('input#input_text, textarea#textarea1').characterCounter();
+    });
+</script>
 </body>
 </html>

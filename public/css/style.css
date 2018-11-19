@@ -15,6 +15,10 @@ nav .container .nav-wrapper ul .active {
     background-color: transparent;
 }
 
+nav .container .nav-wrapper .language .active a {
+    color: #424242;
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -57,8 +61,16 @@ main .teamMain .card .card-content p {
     font-style: italic;
 }
 
+main .teamMain .card .card-action {
+    height: 160px;
+}
+
 main .teamMain h1 {
     color: #00bf77;
+}
+
+main .teamMain .card {
+    text-align: left;
 }
 
 main .teamMain .card:hover{
@@ -113,7 +125,6 @@ main .flash-msg {
     margin-top: 2%;
     color: grey;
     text-align: center;
-    border-style: solid;
-    border-color: #00bf77;
+    border: 1px solid #00bf77;
     background-color: rgba(0, 191, 119, 0.2);
 }
