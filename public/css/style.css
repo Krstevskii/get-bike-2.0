@@ -132,3 +132,7 @@ main .flash-msg {
     border: 1px solid #00bf77;
     background-color: rgba(0, 191, 119, 0.2);
 }
+
+.carousel {
+    height: 700px;
+}
