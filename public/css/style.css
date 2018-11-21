@@ -29,6 +29,10 @@ main {
     flex: 1 0 auto;
 }
 
+.carousel .carousel-slider {
+    height: auto;
+}
+
 main .ideaMain .container {
     padding-top: 2%;
     padding-bottom: 2%;
