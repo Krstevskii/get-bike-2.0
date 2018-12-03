@@ -53,7 +53,9 @@
         $(document).ready(function(){
             $('.sidenav').sidenav();
             $('.parallax').parallax();
-            $('.slider').slider();
+            $('.slider').slider({
+                indicators: false
+            });
             $('.materialboxed').materialbox();
             $('.collapsible').collapsible();
             $('input#input_text, textarea#textarea1').characterCounter();
