@@ -30,7 +30,7 @@ main {
 }
 
 .carousel .carousel-slider {
-    height: auto;
+    height: calc(width * 1.75);
 }
 
 main .ideaMain .container {
@@ -131,8 +131,4 @@ main .flash-msg {
     text-align: center;
     border: 1px solid #00bf77;
     background-color: rgba(0, 191, 119, 0.2);
-}
-
-.carousel {
-    height: 700px;
 }
