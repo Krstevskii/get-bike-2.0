@@ -2,6 +2,10 @@ nav ul a{
     color: grey;
 }
 
+nav .brand-logo{
+    position: inherit;
+}
+
 nav .nav-wrapper .fa-bars {
     font-size: 25px;
 }
