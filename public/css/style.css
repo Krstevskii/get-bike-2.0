@@ -19,6 +19,16 @@ nav .container .nav-wrapper .language .active a {
     color: #424242;
 }
 
+.page-footer {
+    padding-top: 0;
+}
+
+.page-footer .marketing-companies {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-align: center;
+}
+
 body {
     display: flex;
     min-height: 100vh;
