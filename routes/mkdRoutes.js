@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const nodemailer = require('nodemailer');
 const router = express.Router();
 
 const Comment = mongoose.model('message');
@@ -64,7 +65,6 @@ router.route('/contact-us')
         new Comment(newComment)
             .save()
             .then(comment => {
-                console.log(comment);
                 req.flash('success_msg', 'Вашата порака беше успешно испратена');
                 res.redirect('/contact-us');
             })

@@ -24,6 +24,22 @@ nav .container .nav-wrapper .language .active a {
     background-color: transparent;
 }
 
+#sidenavMenu ul .noHover a:hover {
+    background-color: transparent;
+}
+
+#sidenavMenu ul .noHover a {
+    font-size: 20px;
+}
+
+#sidenavMenu ul .noHover {
+    background-color: #00bf77;
+}
+
+#sidenavMenu ul .divider {
+    margin: 0;
+}
+
 .page-footer {
     padding-top: 0;
 }
@@ -42,10 +58,6 @@ body {
 
 main {
     flex: 1 0 auto;
-}
-
-.carousel .carousel-slider {
-    height: calc(width * 1.75);
 }
 
 main .ideaMain .container {
