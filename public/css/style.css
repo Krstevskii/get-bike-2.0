@@ -19,6 +19,11 @@ nav .container .nav-wrapper .language .active a {
     color: #424242;
 }
 
+#sidenavMenu ul .active a {
+    color: #00bf77;
+    background-color: transparent;
+}
+
 .page-footer {
     padding-top: 0;
 }
