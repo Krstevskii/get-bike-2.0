@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="212a9c73-1da8-42d8-a6e9-d011a08528c9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/keys.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,19 +45,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/keys.js">
+        <entry file="file://$PROJECT_DIR$/views/layouts/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="182">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/layouts/index.hbs">
+        <entry file="file://$PROJECT_DIR$/config/keys.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="104">
+              <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -105,7 +116,6 @@
         <option value="$PROJECT_DIR$/public/css/carousel.css" />
         <option value="$PROJECT_DIR$/views/partials/_carousel.hbs" />
         <option value="$PROJECT_DIR$/views/mkd/idea.hbs" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/views/en/news.hbs" />
         <option value="$PROJECT_DIR$/views/mkd/news.hbs" />
         <option value="$PROJECT_DIR$/views/partials/_footer.hbs" />
@@ -119,6 +129,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/views/layouts/index.hbs" />
         <option value="$PROJECT_DIR$/views/partials/_header.hbs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/keys.js" />
       </list>
     </option>
@@ -230,15 +241,16 @@
       <workItem from="1544109764877" duration="1925000" />
       <workItem from="1544111766839" duration="1357000" />
       <workItem from="1544113137969" duration="1142000" />
-      <workItem from="1544115900858" duration="380000" />
+      <workItem from="1544115900858" duration="2019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94240000" />
+    <option name="totallyTimeSpent" value="95879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21530055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -376,13 +388,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/en/news.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -502,17 +507,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/keys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/keys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>

@@ -56,6 +56,10 @@ body {
     flex-direction: column;
 }
 
+body .fixed-action-btn .btn-floating {
+    background-color: #00bf77;
+}
+
 main {
     flex: 1 0 auto;
 }
