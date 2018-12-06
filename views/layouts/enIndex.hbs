@@ -36,7 +36,10 @@
         });
         $('.sidenav').sidenav();
         $('.parallax').parallax();
-        $('.slider').slider();
+        $('.slider').slider({
+            indicators: false
+        });
+        $('.tooltipped').tooltip();
         $('.materialboxed').materialbox();
         $('.collapsible').collapsible();
         $('input#input_text, textarea#textarea1').characterCounter();
