@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="212a9c73-1da8-42d8-a6e9-d011a08528c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/keys.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/keys.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layouts/enIndex.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1066">
-              <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="416">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -28,11 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/partials/_header.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="520">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -49,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/keys.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="156">
+              <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -58,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/layouts/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="115" selection-start-line="11" selection-start-column="115" selection-end-line="11" selection-end-column="115" />
+            <state relative-caret-position="182">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -120,10 +116,10 @@
         <option value="$PROJECT_DIR$/views/layouts/enIndex.hbs" />
         <option value="$PROJECT_DIR$/views/mkd/contact.hbs" />
         <option value="$PROJECT_DIR$/views/en/contact.hbs" />
-        <option value="$PROJECT_DIR$/views/partials/_header.hbs" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/config/keys.js" />
         <option value="$PROJECT_DIR$/views/layouts/index.hbs" />
+        <option value="$PROJECT_DIR$/views/partials/_header.hbs" />
+        <option value="$PROJECT_DIR$/config/keys.js" />
       </list>
     </option>
   </component>
@@ -139,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,14 +163,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="11.1.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/get-bike-dev" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -232,18 +228,19 @@
       <workItem from="1544097824246" duration="4177000" />
       <workItem from="1544107810816" duration="385000" />
       <workItem from="1544109764877" duration="1925000" />
-      <workItem from="1544111766839" duration="995000" />
+      <workItem from="1544111766839" duration="1357000" />
+      <workItem from="1544113137969" duration="1142000" />
+      <workItem from="1544115900858" duration="380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92356000" />
+    <option name="totallyTimeSpent" value="94240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21530055" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21530055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -255,7 +252,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21929824" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21929824" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -486,18 +483,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/enIndex.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="416">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/_header.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#nav#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="520">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -510,15 +504,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/keys.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="156">
+          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="115" selection-start-line="11" selection-start-column="115" selection-end-line="11" selection-end-column="115" />
+        <state relative-caret-position="182">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
