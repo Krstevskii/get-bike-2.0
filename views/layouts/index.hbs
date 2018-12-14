@@ -13,7 +13,10 @@
 </head>
 
 <body>
-    {{> _floating-btn}}
+    {{#if contactPage}}
+    {{else}}
+        {{> _floating-btn}}
+    {{/if}}
     {{> _header}}
     {{#if mainPage}}
         {{> _carousel}}
