@@ -33,6 +33,14 @@
                 $('.carousel.carousel-slider').carousel({
                     fullWidth: true
                 }).height((2160 * documentWidth) / 3840);
+
+                function carouselNext() {
+                    $('.carousel').carousel('next');
+                    setTimeout(carouselNext, 7000);
+                }
+
+                setTimeout(carouselNext, 7000);
+
             {{/if}}
         });
         $('.sidenav').sidenav();
