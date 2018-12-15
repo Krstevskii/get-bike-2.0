@@ -45,8 +45,7 @@ nav .container .nav-wrapper .language .active a {
 }
 
 .page-footer .marketing-companies {
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding: 0;
     text-align: center;
 }
 
