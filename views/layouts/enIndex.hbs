@@ -29,6 +29,16 @@
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script>
+    const headerHeight = $('nav').height();
+    $('.marketing-companies').height("70px");
+    const marketingCompaniesHeight = $('.marketing-companies').height();
+    console.log(headerHeight);
+    console.log(marketingCompaniesHeight);
+
+    $('img#logoItem').height(headerHeight * 0.8);
+    $('img#footerImg').height(marketingCompaniesHeight);
+</script>
+<script>
     $(document).ready(function(){
         const documentWidth = $(document).width();
         $(document).ready(function () {
