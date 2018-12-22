@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const router = express.Router();
+const validateCommentsInput = require('../validation/comment');
 
 const Comment = mongoose.model('message');
 
@@ -54,6 +55,13 @@ router.route('/contact-us')
        })
     })
     .post((req, res) => {
+
+        ({ errors, isValid } = validateCommentsInput(req.body, 'mk'));
+        if(!isValid) {
+            req.flash('error_msg', Object.keys(errors).map(msg => errors[msg]));
+            return res.redirect('/contact-us');
+        }
+
         const newComment = {
             FirstName: req.body.FirstName,
             LastName: req.body.LastName,

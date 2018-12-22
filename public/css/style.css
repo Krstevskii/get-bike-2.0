@@ -171,11 +171,18 @@ main .contactMain .socialNetworks a {
     color: #00bf77;
 }
 
-
 main .flash-msg {
     margin-top: 2%;
     color: grey;
     text-align: center;
     border: 1px solid #00bf77;
     background-color: rgba(0, 191, 119, 0.2);
+}
+
+main .flash-msg-err {
+    margin-top: 2%;
+    color: grey;
+    text-align: center;
+    border: 1px solid #bf000e;
+    background-color: rgba(191, 0, 14, 0.2);
 }

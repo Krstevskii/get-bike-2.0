@@ -16,7 +16,7 @@ mongoose.connect(mongoURI, { useNewUrlParser: true })
     })
     .catch(err => console.log(err));
 
-app.use(favicon(path.join(__dirname, '/public/img/logoItemStar.png')));
+app.use(favicon(path.join(__dirname, '/public/img/faviconLogo.png')));
 
 app.use('/static', express.static(path.join(__dirname, '/public')));
 
