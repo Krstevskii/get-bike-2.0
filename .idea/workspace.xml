@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="212a9c73-1da8-42d8-a6e9-d011a08528c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/logoItemStar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/enRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/enRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/mkdRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/mkdRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation/comment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/en/contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/en/contact.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/mkd/contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/mkd/contact.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/_msg.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/_msg.hbs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layouts/index.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
+            <state relative-caret-position="884">
               <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
             </state>
           </provider>
@@ -36,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/mkd/contact.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="650">
               <caret line="25" column="121" selection-start-line="25" selection-start-column="121" selection-end-line="25" selection-end-column="121" />
             </state>
           </provider>
@@ -45,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="1482">
               <caret line="57" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
@@ -54,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/mkdRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
+            <state relative-caret-position="1612">
               <caret line="62" column="9" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="62" selection-end-column="9" />
             </state>
           </provider>
@@ -63,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/enRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+            <state relative-caret-position="597">
+              <caret line="78" column="30" lean-forward="true" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -72,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/en/contact.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="650">
               <caret line="25" column="105" lean-forward="true" selection-start-line="25" selection-start-column="105" selection-end-line="25" selection-end-column="105" />
             </state>
           </provider>
@@ -90,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="183" column="16" lean-forward="true" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
+            <state relative-caret-position="4758">
+              <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -329,17 +320,20 @@
       <workItem from="1545318550132" duration="32000" />
       <workItem from="1545318616126" duration="4924000" />
       <workItem from="1545484854105" duration="3270000" />
+      <workItem from="1545663730052" duration="18000" />
+      <workItem from="1545663833767" duration="63000" />
+      <workItem from="1546010553756" duration="798000" />
+      <workItem from="1546391106109" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111956000" />
+    <option name="totallyTimeSpent" value="112848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21530055" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21530055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,7 +345,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21929824" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.21929824" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -551,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/_footer.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/enIndex.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="711">
@@ -567,8 +554,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
+        <state relative-caret-position="884">
           <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mkd/contact.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="121" selection-start-line="25" selection-start-column="121" selection-end-line="25" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/mkdRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1612">
+          <caret line="62" column="9" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="62" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/en/contact.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="105" lean-forward="true" selection-start-line="25" selection-start-column="105" selection-end-line="25" selection-end-column="105" />
         </state>
       </provider>
     </entry>
@@ -581,15 +596,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="183" column="16" lean-forward="true" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="4758">
+          <caret line="183" column="16" selection-start-line="183" selection-start-column="16" selection-end-line="183" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -600,31 +608,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/mkdRoutes.js">
+    <entry file="file://$PROJECT_DIR$/views/partials/_footer.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="62" column="9" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="62" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/en/contact.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="25" column="105" lean-forward="true" selection-start-line="25" selection-start-column="105" selection-end-line="25" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/mkd/contact.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="25" column="121" selection-start-line="25" selection-start-column="121" selection-end-line="25" selection-end-column="121" />
+        <state relative-caret-position="26">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/enRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        <state relative-caret-position="597">
+          <caret line="78" column="30" lean-forward="true" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
         </state>
       </provider>
     </entry>
