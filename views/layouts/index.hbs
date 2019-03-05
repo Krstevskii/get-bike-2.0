@@ -7,68 +7,69 @@
     <meta name="keywords" content="getbike,pameten,tocak,pameten tocak,getbike.mk">
     <meta name="description" content="Електричен точак со проактивни филтри ГЕТ-велосипед">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="/static/css/style.css" rel="stylesheet" type="text/css">
     <title>{{title}}</title>
 </head>
 
 <body>
-    {{#if contactPage}}
-    {{else}}
-        {{> _floating-btn}}
-    {{/if}}
-    {{> _header}}
-    {{#if mainPage}}
-        {{> _carousel}}
-    {{/if}}
-    <main>
-        {{> _msg}}
-        {{{body}}}
-    </main>
-    {{> _footer}}
+{{#if contactPage}}
+{{else}}
+    {{> _floating-btn}}
+{{/if}}
+{{> _header}}
+{{#if mainPage}}
+    {{> _carousel}}
+{{/if}}
+<main>
+    {{> _msg}}
+    {{{body}}}
+</main>
+{{> _footer}}
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script>
-        const headerHeight = $('nav').height();
-        $('.marketing-companies').height("70px");
-        const marketingCompaniesHeight = $('.marketing-companies').height();
-        console.log(headerHeight);
-        console.log(marketingCompaniesHeight);
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    const headerHeight = $('nav').height();
+    $('.marketing-companies').height("70px");
+    const marketingCompaniesHeight = $('.marketing-companies').height();
 
-        $('img#logoItem').height(headerHeight * 0.8);
-        $('img#footerImg').height(marketingCompaniesHeight);
-    </script>
-    <script>
-        const documentWidth = $(document).width();
-        $(document).ready(function () {
-            {{#if mainPage}}
-                $('.carousel.carousel-slider').carousel({
-                    fullWidth: true
-                }).height((2160 * documentWidth) / 3840);
+    $('img#logoItem').height(headerHeight * 0.8);
+    $('img#footerImg').height(marketingCompaniesHeight);
+</script>
+<script>
+    const documentWidth = $(document).width();
+    $(document).ready(function () {
+        console.log('document width: ' + documentWidth);
+        {{#if mainPage}}
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true
+            }).height((2160 * documentWidth) / 3840);
 
-                function carouselNext() {
-                    $('.carousel').carousel('next');
-                    setTimeout(carouselNext, 7000);
-                }
-
+            function carouselNext() {
+                $('.carousel').carousel('next');
                 setTimeout(carouselNext, 7000);
-            {{/if}}
+            }
+
+            setTimeout(carouselNext, 7000);
+        {{/if}}
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $('.sidenav').sidenav();
+        $('.parallax').parallax();
+        $('.slider').slider({
+            indicators: false
         });
-    </script>
-    <script>
-        $(document).ready(function(){
-            $('.sidenav').sidenav();
-            $('.parallax').parallax();
-            $('.slider').slider({
-                indicators: false
-            });
-            $('.materialboxed').materialbox();
-            $('.collapsible').collapsible();
-            $('.tooltipped').tooltip();
-            $('input#input_text, textarea#textarea1').characterCounter();
-        });
-    </script>
+        $('.materialboxed').materialbox();
+        $('.collapsible').collapsible();
+        $('.tooltipped').tooltip();
+        $('input#input_text, textarea#textarea1').characterCounter();
+    });
+</script>
 </body>
 </html>
