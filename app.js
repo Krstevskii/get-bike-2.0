@@ -61,8 +61,14 @@ const enRoutes = require('./routes/enRoutes');
 
 app.use('/', mkdRoutes);
 app.use('/en', enRoutes);
-app.get('/sitemap.xml', (req, res) => {
-    const readSitemap = fs.createReadStream(__dirname + '/sitemap.xml', 'utf-8');
+app.get('/sitemap_mkd.xml', (req, res) => {
+    const readSitemap = fs.createReadStream(__dirname + '/sitemap_mkd.xml', 'utf-8');
+    res.contentType('text/xml');
+    readSitemap.pipe(res);
+});
+
+app.get('/sitemap_en.xml', (req, res) => {
+    const readSitemap = fs.createReadStream(__dirname + '/sitemap_en.xml', 'utf-8');
     res.contentType('text/xml');
     readSitemap.pipe(res);
 });
