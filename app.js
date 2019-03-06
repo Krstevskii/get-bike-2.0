@@ -6,6 +6,7 @@ const session = require('express-session');
 const bodyParser = require('body-parser');
 const hbs = require('express-handlebars');
 const mongoose = require('mongoose');
+const fs = require('fs');
 const { mongoURI } = require('./config/keys');
 
 const app = express();
@@ -60,6 +61,11 @@ const enRoutes = require('./routes/enRoutes');
 
 app.use('/', mkdRoutes);
 app.use('/en', enRoutes);
+app.get('/sitemap.xml', (req, res) => {
+    const readSitemap = fs.createReadStream(__dirname + '/sitemap.xml', 'utf-8');
+    res.contentType('text/xml');
+    readSitemap.pipe(res);
+});
 
 const port = process.env.PORT || 5000;
 
