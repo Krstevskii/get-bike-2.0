@@ -190,3 +190,11 @@ main .flash-msg-err {
 video {
     padding-bottom: 2%;
 }
+
+.collection-item-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 75%;
+}
